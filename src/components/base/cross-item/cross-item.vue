@@ -20,12 +20,6 @@ export default {
       default: '我的'
     }
   },
-  watch: {},
-  methods: {},
-  filters: {},
-  computed: {},
-  created () {},
-  mounted () {}
 }
 </script>
 

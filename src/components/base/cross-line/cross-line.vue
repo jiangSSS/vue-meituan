@@ -10,14 +10,7 @@ export default {
   data () {
     return {}
   },
-  props: {},
-  watch: {},
-  methods: {},
-  filters: {},
-  computed: {},
-  created () {},
-  mounted () {},
-  destroyed () {}
+
 }
 </script>
 
@@ -29,7 +22,5 @@ export default {
   width: 100%;
   height: 16px;
   background-color: #ebebeb;
-  // border-top: 1px solid rgba(7, 17, 27, 0.1);
-  // border-bottom: 1px solid rgba(7, 17, 27, 0.1);
 }
 </style>

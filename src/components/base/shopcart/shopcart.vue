@@ -25,7 +25,7 @@
 
       <!-- 飞行小球 -->
       <div class="ball-content">
-        <div v-for="ball in balls">
+        <div v-for="(ball,index) in balls" :key="index">
           <transition name="drop"
                       @before-enter="beforeDrop"
                       @enter="dropping"
@@ -47,7 +47,7 @@
 
           <div class="list-content" ref="listContentRef">
             <ul>
-              <li class="food" v-for="food in selectFoods">
+              <li class="food" v-for="(food,index) in selectFoods" :key="index">
                 <span class="name">{{ food.name }}</span>
 
                 <div class="price">
